@@ -13,8 +13,8 @@ void menu() {
 // Case 1
 void addString(char *str) {
     printf("Nhap vao chuoi: ");
-    getchar(); // XÛa k˝ t? newline cÚn sÛt l?i trong b? d?m sau scanf
-    fgets(str, 100, stdin); // –?c chu?i
+    getchar(); // X√≥a k√Ω t? newline c√≤n s√≥t l?i trong b? d?m sau scanf
+    fgets(str, 100, stdin); // √ê?c chu?i
 }
 
 // Case 2
@@ -63,7 +63,7 @@ int main() {
     int choice;
     
     do {
-        menu(); // Hi?n th? menu
+        menu(); 
         printf("Lua chon cua ban: ");
         scanf("%d", &choice); 
         
@@ -84,7 +84,7 @@ int main() {
                 printf("So luong ky tu dac biet trong chuoi: %d\n", countSpecial(str)); 
                 break;
             case 6:
-                printf("Thoat chuong trinh\n"); // Tho·t chuong trÏnh
+                printf("Thoat chuong trinh\n"); // Tho√°t chuong tr√¨nh
                 break;
             default:
                 printf("Lua chon khong hop le. Vui long chon lai.\n"); 
