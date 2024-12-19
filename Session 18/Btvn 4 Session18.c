@@ -16,8 +16,9 @@ int main() {
         fgets(sv[i].name, sizeof(sv[i].name), stdin);
         printf("Nhap tuoi: ");
         scanf("%d", &sv[i].age);
+        fflush(stdin);
         printf("Nhap so dien thoai: ");
-        scanf("%s", sv[i].phoneNumber);
+        fgets(sv[i].phoneNumber, sizeof(sv[i].phoneNumber), stdin);
     }
     printf("\nThong tin cac sinh vien:\n");
     for (int i = 0; i < n; i++) {
