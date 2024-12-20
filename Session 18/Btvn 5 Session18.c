@@ -16,7 +16,7 @@ int main() {
         {5, "Le Thi E",45,"077668805"}
     };
     int n = 5;
-    int searchId, found = -1;
+    int searchId, found = 0;
     printf("Nhap ID sinh vien can sua: ");
     scanf("%d", &searchId);
     for (int i = 0; i < n; i++) {
@@ -30,7 +30,7 @@ int main() {
             break;
         }
     }
-    if (found==-1) {
+    if (found==0) {
         printf("Khong tim thay sinh vien voi ID %d.\n", searchId);
     }
     printf("\nThong tin tat ca sinh vien:\n");
