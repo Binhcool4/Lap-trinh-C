@@ -18,7 +18,7 @@ int main(){
     }
     fclose(sourceFile);
     fclose(copyFile);
-    printf("Sao chep noi dung tu bt01.txt sang bt06.txt thanh cong.\n");
+    printf("Da sao chep noi dung tu bt01.txt sang bt06.txt thanh cong.\n");
     return 0;
 }
 
